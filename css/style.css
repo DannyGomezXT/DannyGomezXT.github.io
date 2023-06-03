@@ -1,0 +1,38 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+main {
+  padding-top: 62px;
+}
+
+#carouselDeOradores .carousel-item:before {
+  content: "";
+  background-image: linear-gradient(to left,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0));
+  display:block;
+  position:absolute;
+  top:0;
+  width:100%;
+  height:100%;
+}
+
+.carousel-text-pos {
+  bottom: 5em;
+  right: 5em;
+}
+
+#footer {
+  background-color: #214d67;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer a:hover{
+  color:black;
+}
